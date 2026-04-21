@@ -22,7 +22,7 @@ int main() {
     // string: Notice! string is provided from the std namespace!!!
     std::string name = "Tom";
     
-    std::cout << "Hello, my Name is " << name << std::endl;
+    std::cout << "Hello, my Name is " << name << std::endl; // Compliler will std::cout "Hello, my Name is" then std::cout name. This IS NOT string concatenation!
     std::cout << n + d << std::endl;
     return 0;
 } 
