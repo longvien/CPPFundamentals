@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    pair<string, int> n;
+    n.first = "A";
+    n.second = '1';
+    cout << n.first << " " << n.second;
+    return 0;
+}

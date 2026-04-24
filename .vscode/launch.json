@@ -1,8 +1,16 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug (Mac LLDB)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/main",
+      "cwd": "${fileDirname}",
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "MIMode": "lldb",
+      "preLaunchTask": "build"
+    }
+  ]
 }
