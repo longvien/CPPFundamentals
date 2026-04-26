@@ -1,21 +1,24 @@
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 int main() {
-    /*vector<int> v;
+    vector<int> v;
     for (int i = 0; i < 5; i ++) {
         v.push_back(i);
     }
     for (int num : v) {
         cout << num << " ";
     };
-    return 0; */
 
-    pair<string, int> n;
-    n.first = "A";
-    n.second = 1;
-    cout << n.first << " - " << n.second;
-    return 0; 
+    vector<double> a = {1.5, 2.5, 3.5};
+    for (auto num : a) {
+        cout << num << " ";
+    }
+
+
+    return 0;
+
+    
 
 
 
