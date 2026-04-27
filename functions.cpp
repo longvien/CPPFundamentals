@@ -2,19 +2,16 @@
 
 using namespace std;
 
-int add(int a, int b); // declare a function
+int add(int a, int b);
 
-int change(int& n) { /*Function with Reference | modified directly on original value*/
-    n = 100;
-    return n;
-}
-
+int change(int& n) {
+    return n = 20;
+} 
 int main() {
-    int n = 20;
-    cout << add(1, 2) << endl << change(n);
+    int b = 7;
+    cout << "5 + 5 = " << add(5, 5) << "    " << "Change Function: " << change(b);
 }
 
 int add(int a, int b) {
     return a + b;
 }
-
