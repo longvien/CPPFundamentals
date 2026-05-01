@@ -1,8 +1,7 @@
-    #include <bits/stdc++.h>
+#include <bits/stdc++.h>
+using namespace std;
 
-    using namespace std;
-
-    double add(double a , double b) {
+double add(double a , double b) {
         return a + b;
     }
 
@@ -45,3 +44,4 @@
         else if (string(symbol) == "*") { cout << multiply(firstNum, secondNum); }
         else if (string(symbol) == "/") { cout << divide(firstNum, secondNum); } 
     }
+    
