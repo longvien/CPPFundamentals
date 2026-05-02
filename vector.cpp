@@ -15,12 +15,10 @@ int main() {
         cout << num << " ";
     }
 
-
+    // auto figured out by compiler
+    vector numbers = {1, 3, 5};
+    for (int i = 0; i < numbers.size(); i++) {
+        cout << numbers.at(i) << " ";
+    }
     return 0;
-
-    
-
-
-
-
 }
