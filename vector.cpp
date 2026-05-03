@@ -18,7 +18,7 @@ int main() {
     // auto figured out by compiler
     vector numbers = {1, 3, 5};
     for (int i = 0; i < numbers.size(); i++) {
-        cout << numbers.at(i) << " ";
+        cout << numbers.at(i) << " "; // v.at(index): safer way to access to an element using indexes than [] in a vector | NOTICE: IN CP PREFER []
     }
     return 0;
 }
