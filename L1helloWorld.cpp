@@ -6,6 +6,7 @@ int main() {
     // Comments
     /*Comments*/
     
+    std::cout << 3/2;
     std::cout << "Hello World!" << std::endl; // Standard output
 
     std::cout << "--------------------------------- \n";
